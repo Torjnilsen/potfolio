@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Torjus Nilsen"/>
+      <meta name="description" content="here is my portfolio  site "/>
+     <meta name="keywords" content="html, css, javascript. index/home page">
+  <title>Portfolio home page</title>
+  <link rel="stylesheet" href="style.css">
+   <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+        <a href="#home" class="scroll-top">
+        <i class="bx bx-up-arrow-alt" ></i>
+        </a>
+     <header>
+      
+        <div class="nav container">
+          
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <a href="#" class="logo"><span>Torjus</span></a>
+
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Hjem</a></li>
+                <li><a href="#about" class="nav-link">Om meg</a></li>
+                <li><a href="#services" class="nav-link">Tjenester</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+          
+            <i class="bx bx-search" id="search-icon" ></i>
+           
+            <div class="search-box container">
+                <input type="search" name="" id="" placeholder="Search here...">
+            </div>
+        </div>
+
+  
+    </header>
+
+     <section class="home container" id="home"> 
+        <div class="home-content">
+        <div class="home-text">
+            <h3>Hallo</h3>
+            <h2>jeg heter <span class="color">Torjus</span></h2>
+           <p>
+                    Hei jeg er Torjus og jeg studerer front-end utvikling på Noroff høyskole og fagskole campus i Oslo.
+                    <br> under kan du lese litt mer <span class="color">om meg</span>
+                </p>
+        </div>
+         </div>
+     </section>
+
+     <section class="about container" id="about">
+        <h2 class="heading">om meg</h2>
+        <div class="about-content">
+            <div class="about-data">
+            <span>lit om meg</span>
+            <h2>front-end utvikler og web designer</h2>
+            <a href="CV Torjus Nilsen.pdf" class="btn" download="">
+                last ned CV
+                <i class="bx bx-download"></i>
+            </a>
+        </div>
+        <div class="about-text">
+            <p> Hei mitt navn er Torjus og fyller 24 år dette året. Jeg studerer nå fulltid front-end utvikling hos Noroff høgskole og fagskole i Oslo, 
+                på skolen fokuserer vi veldig mye på å bli eksperter på javascript og front-end design. før jeg begynte å studere var jeg 3 år i
+                 forsvaret 1 år som vernepliktig i 2 Battalion og 2 år som ansatt hos Task Force Telemark Battalion, min hoved rolle 
+                 var å være sambands spesialist gjennom hele forsvars karrieren min. det var i forsvaret interessen av it begynte of valget videre til å studere.</p>
+        </div>
+        </div>
+     </section>
+
+     <section class="services container" id="services">
+
+         <h2 class="heading">Tjenester</h2>
+         <div class="services-content">
+            <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h2>html og css</h2>
+            <p>
+               html og css er noe vi også lærer masse om, uttover skole årene vil vi lære flere css libraries til å viderbygge på det vi allerede kan
+            </p>
+         </div>
+            <div class="services-box">
+                <i class="bx bx-brush"></i>
+            <h2>Web design</h2>
+            <p> Figma er et av hoved programene vi bruker gjennom skole årene for designe alle prosjektene vi skal lage til ulike skoleoppgaver.  
+            </p>
+         </div>
+            <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h2>javascript</h2>
+            <p>javascript er et av hoved code språkene vi kommer til å lære på skolen. jeg har fortsatt mye å lære men jeg
+                er motivert til lære mer om språket og forbedre meg selv som utvikler. vi vil ettervært påføre react.js som et av kodespråkene vi kommer til å lære.
+                 så når endt skole gang er over vil jeg forhåpe tlighvis være javascript eksperter.
+            </p>
+         </div>
+    </div>
+     </section>
+    <section class="portfolio container" id="portfolio">
+        <h2 class="heading">Portfolio</h2>
+        <div class="portfolio-content">
+
+         <div class="portfolio-box">
+            <img src="portfolio 1.png" class="portfolio-img" alt="">
+
+            <div class="portfolio-overlay">
+                <h2>web utvikling</h2>
+                <a href="">
+                    <i class="bx bx-link-alt" ></i>
+                </a>
+            </div>
+         </div>
+
+         <div class="portfolio-box">
+            <img src="portfolio 2.png" class="portfolio-img" alt="">
+
+            <div class="portfolio-overlay">
+                <h2>web utvikling</h2>
+                <a href="">
+                    <i class="bx bx-link-alt" ></i>
+                </a>
+            </div>
+         </div>
+
+         <div class="portfolio-box">
+            <img src="portfolio 3.png" class="portfolio-img" alt="">
+
+            <div class="portfolio-overlay">
+                <h2>web utvikling</h2>
+                <a href="">
+                    <i class="bx bx-link-alt" ></i>
+                </a>
+            </div>
+         </div>
+    </div>
+    </section>
+
+    <section class="contact container" id="contact">
+        <h2 class="heading">Kontakt</h2>
+
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Ditt Navn" class="name" required>
+            <input type="email" name="" id="" placeholder="email adresse..." class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="legg igjen en beskjed here..." class="message" required></textarea>
+            <input type="submit" value="send" class="send-btn">
+        </form>
+    </section>
+
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+        emailjs.init("n1K5vpwQYorj_1Sz-"); 
+        })();
+    </script>
+<script src="main.js"></script> 
+</body>
+</html>
